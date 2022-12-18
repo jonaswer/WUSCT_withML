@@ -64,3 +64,6 @@ which equals the stage "self-aware" be Loevinger. Using these 18 Answers for the
 
 The code is deployed webbased and can be used at .. free of charge
 
+![alt text](confusion.png "Title")
+
+
