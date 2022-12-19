@@ -32,7 +32,7 @@ in multi-class classifications. [5]
 
 A recurrent neural network with long-term short memory (LTSM) is used with validation data
 for hyperparameter optimization as a typical approach for NLP [6]. We use 80% of the data 
-as the training dataset and 20% of this training dataset for validation
+as the training dataset and 20% of this training dataset for validation.
 
 The confusion matrix shows the result for the independent test dataset. The center 
 of every actual value is also the predicted value. 
@@ -64,7 +64,7 @@ The machine learning model estimates the stage with the following distribution:
 
 # Usage 
 
-The code is deployed webbased and can be used at .. free of charge
+The code is deployed webbased at http://compego.com and can be used free of charge 
 
 # References 
 
