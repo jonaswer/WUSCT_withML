@@ -142,7 +142,6 @@ def get_model():
         sentences[i] = get_tokenizer_preprocesing(sentences[i])
     sentences = np.asarray(sentences)
 
-
     # The maximum number of words to be used. (most frequent)
     MAX_NB_WORDS = 50000
     # Max number of words in each sentecne completion
@@ -215,8 +214,7 @@ def get_model():
     # print confusion matrix
     cf_matrix = get_confusion_matrix(Y_test, X_test, model)
     print(cf_matrix)
-   
-    
+      
     return model, history, tokenizer
     
 
@@ -228,8 +226,10 @@ def save_model(model, tokenizer):
         pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
     # save neural network weights
     model.save('/home/jonas/Desktop/priv_proj/wusct/new')
+    
+    return 0
 
-
+# main function
 if __name__ == "__main__":
 
     model, history, tokenizer = get_model()
