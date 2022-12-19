@@ -5,7 +5,7 @@ The Washington University Sentence Completion Test (WUSCT) created by Jane Loevi
 This repository is an approach to solving the Washington sentence completion test (WUSCT)
 with Natural Language Processing (NLP) methods with public available data of former WUSCT tests, available at [click here](https://osf.io/jw7dy/). 
 
-# Computational methods
+# Computational method
 
 The WUSCT contains relatively small sentences, that need to be classified into 
 eight categories. The following chapter describes the different characteristics of 
@@ -57,10 +57,10 @@ sentence nr. | beginning | completion | score
 ..  | ..  | .. | ..
 18   | Rules are  | to be broken | 4
 
-The average score of these 18 answers is 5.05, which equals the stage "self-aware" be Loevinger. 
-The machine learning model gives the following output based on the answers:
+The average score of these 18 answers is 5.05 by the original score, which equals the stage "self-aware" by Loevinger. 
+The machine learning model estimates the stage with the following distribution:
 
-![graph](barchart_example.png)
+![graph](barchart.png)
 
 # Usage 
 
@@ -68,10 +68,10 @@ The code is deployed webbased and can be used at .. free of charge
 
 # References 
 
-[1] Xuan Hy, Le.; Loevinger, J.: Measuring Ego Development, 2014
-[2] Cook-Greuter, S.: Ego Development: A Full-Spectrum Theory Of Vertical Growth And Meaning Making, 2021
-[3] Sarica, S.; Luo, J.: Stopwords in Technical Language Processing, 2020
-[4] Lenning, K.: ComputationalEgoLevel (https://github.com/kevinlanning/ComputationalEgoLevel)
-[5] Cerda, P.; Varoquanx, G.; Kegl, B.: Similarity encoding for learning with dirty categorical variables, 2018
-[6] Text classification with RNN (https://towardsai.net/p/deep-learning/text-classification-with-rnn), 2020
+[1] Xuan Hy, Le.; Loevinger, J.: Measuring Ego Development, 2014 <br>
+[2] Cook-Greuter, S.: Ego Development: A Full-Spectrum Theory Of Vertical Growth And Meaning Making, 2021 <br>
+[3] Sarica, S.; Luo, J.: Stopwords in Technical Language Processing, 2020 <br>
+[4] Lenning, K.: ComputationalEgoLevel (https://github.com/kevinlanning/ComputationalEgoLevel) <br>
+[5] Cerda, P.; Varoquanx, G.; Kegl, B.: Similarity encoding for learning with dirty categorical variables, 2018 <br>
+[6] Text classification with RNN (https://towardsai.net/p/deep-learning/text-classification-with-rnn), 2020 <br>
 
