@@ -5,7 +5,7 @@ The Washington University Sentence Completion Test (WUSCT) created by Jane Loevi
 This repository is an approach to solving the Washington sentence completion test (WUSCT)
 with Natural Language Processing (NLP) methods with public available data of former WUSCT tests, available at [click here](https://osf.io/jw7dy/). 
 
-# Computational method
+# Computational methods for the approach
 
 The WUSCT contains relatively small sentences, that need to be classified into 
 eight categories. The following chapter describes the different characteristics of 
