@@ -64,7 +64,7 @@ The machine learning model estimates the stage with the following distribution:
 
 # Usage 
 
-The code is deployed webbased at http://compego.com and can be used free of charge.
+The code is deployed webbased at http://computational-ego.com and can be used free of charge.
 
 # References 
 
