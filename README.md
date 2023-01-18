@@ -8,7 +8,7 @@ with Natural Language Processing (NLP) methods with public available data of for
 # Computational methods for the approach
 
 The WUSCT contains relatively small sentences, that need to be classified into 
-eight categories. The following chapter describes the different characteristics of 
+eight categories. The following chapter describes different characteristics of 
 the selected architecture and preprocessing routines based on the underlying goal 
 to distinguish the answers to the test. 
 
